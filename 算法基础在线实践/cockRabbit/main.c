@@ -18,6 +18,7 @@
 int main(void)
 {
     int nCases, nFeets;
+    int nMax, nMin;
 
     printf("请输入样本数量: \n");
 
@@ -29,15 +30,24 @@ int main(void)
 
             scanf("%d", &nFeets);
 
-            if(nFeets % 4 == 0)
-                printf("最少的动物数: %d, 最多的动物数: %d\n", nFeets / 4, nFeets / 2);
-            else if(nFeets % 2 == 0)
-                printf("最少的动物数: %d, 最多的动物数: %d\n", nFeets / 4 + 1, nFeets / 2);
-            else
-                printf("最少的动物数: 0, 最多的动物数: 0\n");
+            if(nFeets % 4 == 0){
+                nMax = nFeets / 4;
+                nMin = nFeets / 2;
+
+            }
+            else if(nFeets % 2 == 0){
+                nMax = nFeets / 4 + 1;
+                nMin = nFeets / 2;
+            }
+            else{
+                nMax = 0;
+                nMin = 0;
+            }
+
+            printf("最少的动物数: %d, 最多的动物数: %d\n", nMax, nMin);
         }
 
-        printf("\n请输入样本数量: \n");
+        printf("\n\n请输入样本数量: \n");
     }
 
     return 0;
