@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1563930384 source:d:\learn\code\algorithmworld\算法基础在线实践\递归\twentyfour\24cal\main.c
+	<stdio.h>
+	<malloc.h>
+	<conio.h>
+	"itemopeation.h"
+
+1515756171 d:\learn\code\algorithmworld\算法基础在线实践\递归\twentyfour\24cal\itemopeation.h
+	"fraction.h"
+	<string.h>
+	<ctype.h>
+	<malloc.h>
+
+1515757209 d:\learn\code\algorithmworld\算法基础在线实践\递归\twentyfour\24cal\fraction.h
+	<math.h>
+	<stdlib.h>
+
+1515756899 source:d:\learn\code\algorithmworld\算法基础在线实践\递归\twentyfour\24cal\fraction.c
+	"fraction.h"
+
+1515758260 source:d:\learn\code\algorithmworld\算法基础在线实践\递归\twentyfour\24cal\itemopeation.c
+	"itemopeation.h"
+
